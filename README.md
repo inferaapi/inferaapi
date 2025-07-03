@@ -1,16 +1,25 @@
-## Hi there 👋
+# InferaAPI 🚀 
+- High-speed Python framework with built-in Generative AI, ready for real-world scale.
 
-<!--
-**inferaapi/inferaapi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**InferaAPI** is a blazing-fast, Python-based open-source REST API framework built from scratch, with native support for Generative AI models like OpenAI (ChatGPT), Grok, and Ollama.
 
-Here are some ideas to get you started:
+> ⚡ RESTful. 🤖 AI-powered. 🔁 Prompt-ready.  
+> Serve your LLMs with simplicity and speed.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### ✨ Features
+
+- 🌐 Minimal ASGI REST API (built using Starlette)
+- 🧠 Native support for LLMs (OpenAI, Ollama, Grok, etc.)
+- 🧰 Pydantic-based schema validation
+- 🔄 Route decorators like `@ai_route`, `@rest_route`
+- 🚀 Developer-friendly, zero boilerplate
+- 📦 Works with any model via plugins
+
+---
+
+### 📦 Installation
+
+```bash
+pip install inferaapi
